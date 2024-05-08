@@ -1,0 +1,85 @@
+.card {
+  background-color: #202020;
+  border-color: #A56FFF;
+  transition: transform 0.3s;
+
+  &-title {
+    color: #FFF;
+  }
+
+  &-subtitle {
+    color: #B3B3B3 !important;
+  }
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(205, 79, 255, 0.5);
+  cursor: pointer;
+}
+
+.paragrafo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titulo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #A56FFF;
+}
+
+.btn {
+  background-color: #202020;
+  border-color: #A56FFF;
+  color: #A56FFF !important;
+}
+
+input::placeholder {
+  color: #A56FFF !important;
+}
+
+.form-control {
+  background-color: #202020;
+  border-color: #A56FFF;
+  color: #A56FFF !important;
+}
+
+.page-link {
+  background-color: #202020;
+  border-color: #A56FFF;
+  color: #A56FFF !important;
+}
+
+.page-link:hover {
+  cursor: pointer;
+}
+
+.background-disabled {
+  background-color: #2b2b2b !important;
+}
+
+.active {
+  background-color: #A56FFF !important;
+  color: #202020 !important;
+}
+
+.modal {
+  &-header {
+    background-color: #272727;
+    border: 1px solid #A56FFF;
+  }
+
+  &-body {
+    background-color: #272727;
+    border-left: 1px solid #A56FFF;
+    border-right: 1px solid #A56FFF;
+  }
+
+  &-footer {
+    background-color: #272727;
+    border: 1px solid #A56FFF;
+  }
+}

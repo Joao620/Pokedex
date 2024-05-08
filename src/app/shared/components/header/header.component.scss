@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #202020;
+  border-bottom: 1px solid #A56FFF;
+
+  &-brand {
+    color: #fff;
+  }
+}
+
+.roboto {
+  &-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #A56FFF;
+  }
+
+  &-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+}
